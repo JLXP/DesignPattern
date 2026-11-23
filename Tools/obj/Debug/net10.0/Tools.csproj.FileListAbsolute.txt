@@ -1,0 +1,12 @@
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/bin/Debug/net10.0/Tools.deps.json
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/bin/Debug/net10.0/Tools.dll
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/bin/Debug/net10.0/Tools.pdb
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/obj/Debug/net10.0/Tools.GeneratedMSBuildEditorConfig.editorconfig
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/obj/Debug/net10.0/Tools.AssemblyInfoInputs.cache
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/obj/Debug/net10.0/Tools.AssemblyInfo.cs
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/obj/Debug/net10.0/Tools.csproj.CoreCompileInputs.cache
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/obj/Debug/net10.0/Tools.sourcelink.json
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/obj/Debug/net10.0/Tools.dll
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/obj/Debug/net10.0/refint/Tools.dll
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/obj/Debug/net10.0/Tools.pdb
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/obj/Debug/net10.0/ref/Tools.dll
