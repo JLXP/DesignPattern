@@ -1,7 +1,20 @@
+using Tools.Earn;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient((factory) =>
+{
+    return new LocalEarnFactory(builder.Configuration.GetSection("MyConfig").GetValue<decimal>("LocalPercentage"));
+});
+builder.Services.AddTransient((factory) =>
+{
+    return new ForeignEarnFactory(
+        builder.Configuration.GetSection("MyConfig").GetValue<decimal>("ForeignPercentage"),
+        builder.Configuration.GetSection("MyConfig").GetValue<decimal>("Extra")
+    );
+});
 
 var app = builder.Build();
 
