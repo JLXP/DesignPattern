@@ -1,5 +1,6 @@
-﻿using DesignPattern.DependencyInjection;
-using DesignPattern.FactoryPattern;
+﻿using DesignPattern.Data;
+using DesignPattern.Models;
+using DesignPattern.RepositoryPattern;
 
 namespace DesignPattern
 {
@@ -26,6 +27,32 @@ namespace DesignPattern
             var drinkWithBeer = new DrinkWithBeer(10,1,beer);
             drinkWithBeer.Build();*/
            
+            //REPOSITORY
+
+            /*using (var context = new AppDbContext())
+            {
+                var lst = context.Beers.ToList();
+                foreach(var beer in lst)
+                {
+                    Console.WriteLine(beer.Name);
+                }
+            }*/
+
+            using (var context = new AppDbContext())
+            {
+                var beerRepository = new BeerRepository(context);
+                var beer = new Beer();
+                beer.Name = "Corona";
+                beer.Style = "Pilsner";
+                beerRepository.Add(beer);
+                beerRepository.Save();
+
+                foreach(var b in beerRepository.Get())
+                {
+                    Console.WriteLine(b.Name);
+                }
+            }
+
 
         }
     }
