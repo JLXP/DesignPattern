@@ -6,7 +6,7 @@ namespace DesignPattern
 {
     class Program
     {
-        static void Main(string [] args)
+        static void Main(string[] args)
         {
             //FACTORY
             /*
@@ -26,7 +26,7 @@ namespace DesignPattern
             /*var beer = new Beer("Pikantus", "Erdinger");
             var drinkWithBeer = new DrinkWithBeer(10,1,beer);
             drinkWithBeer.Build();*/
-           
+
             //REPOSITORY
 
             /*using (var context = new AppDbContext())
@@ -38,7 +38,7 @@ namespace DesignPattern
                 }
             }*/
 
-            using (var context = new AppDbContext())
+            /*using (var context = new AppDbContext())
             {
                 var beerRepository = new BeerRepository(context);
                 var beer = new Beer();
@@ -51,6 +51,21 @@ namespace DesignPattern
                 {
                     Console.WriteLine(b.Name);
                 }
+            }*/
+
+            using (var context = new AppDbContext())
+            {
+                var beerRepository = new Repository<Beer>(context);
+                var beer = new Beer() { Name = "Fuller", Style = "Strong Ale" };
+                beerRepository.Add(beer);
+                beerRepository.Save();
+
+                foreach (var b in beerRepository.Get())
+                {
+                    Console.WriteLine($"{b.BeerId} {b.Name}");
+                }
+
+
             }
 
 
