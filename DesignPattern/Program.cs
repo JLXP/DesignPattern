@@ -1,6 +1,6 @@
 ﻿using DesignPattern.Data;
 using DesignPattern.Models;
-using DesignPattern.RepositoryPattern;
+using DesignPattern.UnitOfWorkPattern;
 
 namespace DesignPattern
 {
@@ -53,7 +53,7 @@ namespace DesignPattern
                 }
             }*/
 
-            using (var context = new AppDbContext())
+            /*using (var context = new AppDbContext())
             {
                 var beerRepository = new Repository<Beer>(context);
                 var beer = new Beer() { Name = "Fuller", Style = "Strong Ale" };
@@ -64,6 +64,31 @@ namespace DesignPattern
                 {
                     Console.WriteLine($"{b.BeerId} {b.Name}");
                 }
+
+
+            }*/
+            
+            //UNIT OF WORK
+            using (var context = new AppDbContext())
+            {
+                var unitOfWork = new UnitOfWork(context);
+                var beers = unitOfWork.Beers;
+                var beer = new Beer()
+                {
+                    Name = "Fuller",
+                    Style = "Porter"
+                };
+                beers.Add(beer);
+
+                var brands = unitOfWork.Brands;
+                var brand = new Brand()
+                {
+                    Name = "Fuller"
+                };
+
+                brands.Add(brand);
+
+                unitOfWork.Save();
 
 
             }
