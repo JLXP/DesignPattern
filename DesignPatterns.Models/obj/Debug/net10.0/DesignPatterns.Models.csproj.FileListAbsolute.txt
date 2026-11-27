@@ -1,0 +1,15 @@
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/bin/Debug/net10.0/DesignPatterns.Models.deps.json
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/bin/Debug/net10.0/DesignPatterns.Models.runtimeconfig.json
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/bin/Debug/net10.0/DesignPatterns.Models.dll
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/bin/Debug/net10.0/DesignPatterns.Models.pdb
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/obj/Debug/net10.0/DesignPatterns.Models.csproj.AssemblyReference.cache
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/obj/Debug/net10.0/DesignPatterns.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/obj/Debug/net10.0/DesignPatterns.Models.AssemblyInfoInputs.cache
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/obj/Debug/net10.0/DesignPatterns.Models.AssemblyInfo.cs
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/obj/Debug/net10.0/DesignPatterns.Models.csproj.CoreCompileInputs.cache
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/obj/Debug/net10.0/DesignPatterns.Models.sourcelink.json
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/obj/Debug/net10.0/DesignPatterns.Models.dll
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/obj/Debug/net10.0/refint/DesignPatterns.Models.dll
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/obj/Debug/net10.0/DesignPatterns.Models.pdb
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/obj/Debug/net10.0/DesignPatterns.Models.genruntimeconfig.cache
+/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/obj/Debug/net10.0/ref/DesignPatterns.Models.dll

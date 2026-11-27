@@ -1067,6 +1067,33 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "DesignPatterns.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "10.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.13"
+        },
+        "compile": {
+          "bin/placeholder/DesignPatterns.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesignPatterns.Models.dll": {}
+        }
+      },
+      "DesignPatterns.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "DesignPatterns.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DesignPatterns.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesignPatterns.Repository.dll": {}
+        }
+      },
       "Tools/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -3109,6 +3136,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "DesignPatterns.Models/1.0.0": {
+      "type": "project",
+      "path": "../DesignPatterns.Models/DesignPatterns.Models.csproj",
+      "msbuildProject": "../DesignPatterns.Models/DesignPatterns.Models.csproj"
+    },
+    "DesignPatterns.Repository/1.0.0": {
+      "type": "project",
+      "path": "../DesignPatterns.Repository/DesignPatterns.Repository.csproj",
+      "msbuildProject": "../DesignPatterns.Repository/DesignPatterns.Repository.csproj"
+    },
     "Tools/1.0.0": {
       "type": "project",
       "path": "../Tools/Tools.csproj",
@@ -3117,6 +3154,8 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "DesignPatterns.Models >= 1.0.0",
+      "DesignPatterns.Repository >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.13",
       "Tools >= 1.0.0"
@@ -3147,6 +3186,12 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
+            "/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/DesignPatterns.Models.csproj": {
+              "projectPath": "/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Models/DesignPatterns.Models.csproj"
+            },
+            "/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Repository/DesignPatterns.Repository.csproj": {
+              "projectPath": "/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/DesignPatterns.Repository/DesignPatterns.Repository.csproj"
+            },
             "/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/Tools.csproj": {
               "projectPath": "/Users/javierleonardo/Desktop/CURSOS/DOTNET/PATRONES_DE_DISENIO/Tools/Tools.csproj"
             }

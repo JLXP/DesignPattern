@@ -1,14 +1,24 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using DesignPatternApp.Models;
+using DesignPattern.RepositoryPattern;
+using DesignPatterns.Models.Models;
 
 namespace DesignPatternApp.Controllers;
 
 public class HomeController : Controller
 {
+    private readonly IRepository<Beer> _repository;
+
+    public HomeController(IRepository<Beer> repository)
+    {
+        _repository = repository;
+    }
+
     public IActionResult Index()
     {
-        return View();
+        IEnumerable<Beer> lst = _repository.Get();
+        return View("Index", lst);
     }
 
     public IActionResult Privacy()
